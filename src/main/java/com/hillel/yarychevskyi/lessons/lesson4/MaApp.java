@@ -11,7 +11,7 @@ public class MaApp {
         int LiArcher = archer * liSoldiers;
         int LiRider = rider * liSoldiers;
 
-        System.out.println(liWarriors + LiArcher + LiRider);
+        System.out.println( liWarriors + LiArcher + LiRider);
 
 
         double Min =  liSoldiers + (liSoldiers * 1.5) ;
@@ -24,7 +24,7 @@ public class MaApp {
         double MinArcherAttacks = Min * MinArcher;
         double MinRiderAttacks = Min * MinRider;
 
-        System.out.println(MinSoldiersAttacks + MinArcherAttacks + MinRiderAttacks);
+        System.out.println( MinSoldiersAttacks + MinArcherAttacks + MinRiderAttacks);
 
 
     }
