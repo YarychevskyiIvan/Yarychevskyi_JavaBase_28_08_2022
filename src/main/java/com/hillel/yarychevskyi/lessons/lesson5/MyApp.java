@@ -7,7 +7,7 @@ public class MyApp {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Pleas enter name team1");
         String Team1 = scanner.nextLine();
-        System.out.println("Team1 = " + " " + Team1);
+        System.out.println("team1 = " + " " + Team1);
         System.out.println( "Pleas enter frag for" + " " + Team1);
 
         int bot1 = scanner.nextInt();
