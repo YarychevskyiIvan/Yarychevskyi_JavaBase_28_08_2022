@@ -12,6 +12,7 @@ public class MyApp {
         System.out.println("Напиши своє число");
         for (int pleyer = 0; pleyer <3 ; pleyer++) {
             pleyer = scanner.nextInt();
+
             if (pleyer < comp) {
                 System.out.println("Напиши число більше");
             } else if (pleyer > comp) {
