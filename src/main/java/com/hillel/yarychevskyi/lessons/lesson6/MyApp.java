@@ -12,8 +12,12 @@ public class MyApp {
         System.out.println(comp);
         System.out.println("Напиши своє число");
         for (int i = 0; i < 3 ; i++) {
-            if (scanner.hasNextInt())
-             player = scanner.nextInt();
+            if (scanner.hasNextInt()) {
+                player = scanner.nextInt();
+            } else {
+                System.out.println("Wrong date, pleas try again!");
+                System.exit(0);
+            }
             if (player < comp) {
                 System.out.println("Напиши число більше");
             } else if (player > comp) {
