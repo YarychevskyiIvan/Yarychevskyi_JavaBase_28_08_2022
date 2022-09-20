@@ -9,13 +9,14 @@ public class MyApp {
         int player = 0;
         System.out.println("Вгадай число від 0 до 1");
         comp = (int) (Math.random()*10);
+        System.out.println(comp);
         System.out.println("Напиши своє число");
-        for (int pleyer = 0; pleyer <3 ; pleyer++) {
-            pleyer = scanner.nextInt();
-
-            if (pleyer < comp) {
+        for (int i = 0; i < 3 ; i++) {
+            if (scanner.hasNextInt())
+             player = scanner.nextInt();
+            if (player < comp) {
                 System.out.println("Напиши число більше");
-            } else if (pleyer > comp) {
+            } else if (player > comp) {
                 System.out.println("Напиши число менше");
 
             } else {
