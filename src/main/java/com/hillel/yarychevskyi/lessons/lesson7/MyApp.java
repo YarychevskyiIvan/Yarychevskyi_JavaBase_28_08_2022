@@ -7,8 +7,8 @@ public class MyApp {
         int[] team1 = new int[25];
         int[] team2 = new int[25];
         for (int i = 0; i < team1.length; i++) {
-            team1[i] = (int) ((Math.random() * 22) + 18);
-            team2[i] = (int) ((Math.random() * 22) + 18);
+            team1[i] = (int) ((Math.random() * 23) + 18);
+            team2[i] = (int) ((Math.random() * 23) + 18);
 
 
         }
