@@ -34,6 +34,10 @@ public class main {
                     mass2[j + 1] = temp;
                 }
             }
+
+
+
+
         } System.out.println(Arrays.toString(mass1));
         System.out.println(Arrays.toString(mass2));
 
