@@ -40,6 +40,7 @@ public class Burger {
         return "Burger{" +
                 "roll='" + roll + '\'' +
                 ", meat='" + meat + '\'' +
+                ", secondMeat='" + secondMeat + '\'' +
                 ", salad='" + salad + '\'' +
                 ", cheese='" + cheese + '\'' +
                 ", mayonnaise='" + mayonnaise + '\'' +
