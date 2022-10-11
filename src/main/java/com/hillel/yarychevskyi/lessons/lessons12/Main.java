@@ -8,6 +8,7 @@ public class Main {
         tracker.setSteps(5550);
         tracker.printAccountInfo();
         tracker.setSurname("Verba");
+        tracker.getBirthYear();
         tracker.printAccountInfo();
         System.out.println();
         Tracker tracker1 = new Tracker("Roman",5,9, 1989,"Roman@gmail.com", "80971214563","Kovalenko", 101,75,1233);
