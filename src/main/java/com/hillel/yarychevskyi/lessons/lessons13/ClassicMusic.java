@@ -9,7 +9,7 @@ public class ClassicMusic extends MusicStyles {
 
     @Override
     public void playMusic() {
-        System.out.println("Play ClassicMusic " + name);
+        System.out.println("Play ClassicMusic " + getName());
 
     }
 }
