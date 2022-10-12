@@ -8,7 +8,7 @@ public class PopMusic extends MusicStyles {
     }
 
     @Override
-    void playMusic() {
+    public void playMusic() {
         System.out.println("Play PopMusic " + name);
 
     }

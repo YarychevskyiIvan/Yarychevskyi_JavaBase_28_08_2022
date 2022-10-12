@@ -8,7 +8,7 @@ public class RockMusic extends MusicStyles {
     }
 
     @Override
-    void playMusic() {
+    public void playMusic() {
         System.out.println("Play RockMusic " + name);
 
     }
