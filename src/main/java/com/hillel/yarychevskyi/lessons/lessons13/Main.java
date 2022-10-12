@@ -7,7 +7,10 @@ public class Main {
                 new ClassicMusic("Mozart"),
                 new PopMusic("Queen")
         };
+        for (MusicStyles musicStyle : musicStyles) {
+            musicStyle.playMusic();
 
+        }
 
 
 
