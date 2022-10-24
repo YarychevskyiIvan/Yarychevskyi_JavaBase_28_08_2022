@@ -1,4 +1,4 @@
-package com.hillel.yarychevskyi.lessons.lesssons15;
+package com.hillel.yarychevskyi.lessons.lesson15;
 
 public class Drink {
     public static int counter=0;

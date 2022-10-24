@@ -1,4 +1,4 @@
-package com.hillel.yarychevskyi.lessons.lessons11;
+package com.hillel.yarychevskyi.lessons.lesson11;
 
 public class Burger {
     String roll;

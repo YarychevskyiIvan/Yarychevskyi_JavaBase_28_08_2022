@@ -1,4 +1,4 @@
-package com.hillel.yarychevskyi.lessons.lessons12;
+package com.hillel.yarychevskyi.lessons.lesson12;
 
 public class Tracker {
     private final String name;

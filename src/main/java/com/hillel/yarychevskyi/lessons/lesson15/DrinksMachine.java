@@ -1,12 +1,12 @@
-package com.hillel.yarychevskyi.lessons.lesssons15;
+package com.hillel.yarychevskyi.lessons.lesson15;
 
 public enum DrinksMachine {
 
-    coffee ("КАВА"),
-    tea ("ЧАЙ"),
-    lemonade ("ЛИМОНАД"),
-    mojito ("МОХІТО"),
-    mineralWater ("Мінеральна вода"),
+    COFFEE ("КАВА"),
+    TEA ("ЧАЙ"),
+    LEMONADE ("ЛИМОНАД"),
+    MOJITO ("МОХІТО"),
+    MINERALWATER ("МІНЕРАЛЬНА ВОДА"),
     COCA_COLA ("КОКА_КОЛА");
 
     private String title;

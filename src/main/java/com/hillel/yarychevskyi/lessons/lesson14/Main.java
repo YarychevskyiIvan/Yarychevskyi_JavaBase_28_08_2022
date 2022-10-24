@@ -1,4 +1,4 @@
-package com.hillel.yarychevskyi.lessons.lessons14;
+package com.hillel.yarychevskyi.lessons.lesson14;
 
 public class Main {
     public static void main(String[] args) {

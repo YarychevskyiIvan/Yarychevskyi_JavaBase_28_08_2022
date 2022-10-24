@@ -1,4 +1,4 @@
-package com.hillel.yarychevskyi.lessons.lessons13;
+package com.hillel.yarychevskyi.lessons.lesson13;
 
 public class PopMusic extends MusicStyles {
 
